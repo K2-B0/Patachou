@@ -1,0 +1,337 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*-----------------------HEADER---------------------------*/
+
+header {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.main_logo {
+    display: flex;
+    margin: 20px auto;
+}
+
+.navbar {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.nav_elements a {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.nav_elements a:hover {
+    color: #AB864C;
+}
+
+/*-------------------MAIN-----------------------*/
+
+/*HERO IMG*/
+
+.hero_img_container {
+    height: 300px;
+    background: url(images/HAUTE-COUTURE.jpg) center/cover no-repeat;
+}
+
+/*CITATION*/
+
+.citation {
+    margin: 70px 10px;
+    text-align: center;
+    font-family: "Kaisei Decol", sans-serif;
+}
+
+.text_citation {
+    font-weight: 600;
+}
+
+.autor_citation {
+    margin-top: 15px;
+}
+
+/*QUALITY CHARTE*/
+
+.quality_charte {
+    font-family: "Poppins";
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+/*PRODUCTS*/
+
+.title_products {
+    padding: 60px 0;
+    font-weight: 500;
+    font-family: "Kaisei Decol", sans-serif;
+}
+
+.discover_products {
+    background-color: #AB864C;
+    color: #fff;
+    padding: auto 10px;
+    text-align: center;
+}
+
+.p_title {
+    font-family: "Kaisei Decol", sans-serif;    
+    margin: 50px 15px;
+}
+
+.p_text {
+    margin: 50px 15px;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.title {
+    font-family: "Kaisei Decol";
+}
+
+.product_img {
+    height: 200px;
+}
+
+.discover_button {
+    padding-bottom: 70px;
+}
+
+.discover_button a {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Poppins";
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+/*STORY*/
+
+.story_img {
+    height: 150px;
+    display: flex;
+    margin: auto auto;
+    margin-top: 70px;
+}
+
+.quote {
+    height: 30px;
+    display: flex;
+    margin: auto auto;
+    margin-top: 30px;
+}
+
+.patachou_story {
+    margin-bottom: 100px;
+}
+
+.patachou_story h3 {
+    text-align: center;
+    font-family: "Kaisei Decol";
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.story_text {
+    font-family: "Poppins";
+    font-size: 12px;
+    margin: 5px 15px;
+}
+
+.story_button {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.story_button a{
+    padding: 10px;
+    background-color: #AB864C;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/*LABEL*/
+
+.label_title {
+    font-family: "Kaisei Decol";
+    font-size: 22px;
+    display: flex;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.label_p {
+    margin: 30px 15px;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+form {
+    padding: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+
+form p {
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 10px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #555;
+    border-radius: 2px;
+  }
+
+  .form-group label {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .single-column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .checkbox-group input[type="checkbox"] {
+    margin-top: 3px;
+  }
+
+  .submit-button {
+    background-color: #AB864C;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Poppins";
+  }
+
+  .submit-button:hover {
+    background-color: #9f6f34;
+  }
+
+  label {
+    font-family: "Poppins";
+  }
+
+/*LOCALISATION*/
+
+.localisation {
+    background-color: #AB864C;
+    color: #fff;
+}
+
+.localisation_text{
+    padding: 30px 0;
+}
+
+.localisation_title {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Kaisei Decol";
+    font-weight: 500;
+}
+
+.localisation_adress {
+    font-family: "Poppins";
+    font-size: 16px;
+    text-align: center;
+}
+
+.map iframe{
+    height: 300px;
+}
+
+/*-------------------FOOTER-----------------------*/
+
+footer {
+    background-color: #000;
+    padding-top: 50px;
+}
+footer ul li a {
+    color: #fff;
+    display: flex;
+    margin: auto;
+    width: 40%;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+.logo_footer {
+    height: 50px;
+    filter: invert(100%);
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.footer_text {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.legal_mention {
+    margin-top: 50px;
+    padding: 20px 0;
+    border:#AB864C 1px solid;
+}
+
+.legal_mention p{
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
